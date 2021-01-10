@@ -4,9 +4,9 @@ import Nav from './src/nav';
 
 function App() {
     return (
-<SafeAreaView style={{flex:1}}>
+
     <Nav/>
-</SafeAreaView>
+
 
     );
 }

@@ -13,7 +13,7 @@ function Nav() {
     return (
         <NavigationContainer>
             <Stack.Navigator initialRouteName={state.initialRouteName}>
-                <Stack.Screen name="Login" component={Login}  />
+                <Stack.Screen name="Login" component={Login} options={ {headerShown:false} } />
                 <Stack.Screen name="Tabbar" component={Tabbar} />
             </Stack.Navigator>
         </NavigationContainer>
