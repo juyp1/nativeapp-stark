@@ -19,7 +19,6 @@ class LoginPage extends Component {
     render() {
         return (
             <View style={styles.container}>
-
                 <ImageBackground source={require('../assets/login.png')} style={styles.image}>
                     <View style={styles.panleContainer}>
                         <View style={styles.panle}>
