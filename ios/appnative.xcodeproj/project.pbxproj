@@ -16,6 +16,14 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* appnativeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* appnativeTests.m */; };
+		406F23D625AD958800BACE8A /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 406F23D525AD958800BACE8A /* iconfont.ttf */; };
+		406F23D725AD958800BACE8A /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 406F23D525AD958800BACE8A /* iconfont.ttf */; };
+		406F23D825AD958800BACE8A /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 406F23D525AD958800BACE8A /* iconfont.ttf */; };
+		406F23D925AD958800BACE8A /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 406F23D525AD958800BACE8A /* iconfont.ttf */; };
+		406F23DB25AD98EB00BACE8A /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 406F23DA25AD98EB00BACE8A /* iconfont.ttf */; };
+		406F23DC25AD98EB00BACE8A /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 406F23DA25AD98EB00BACE8A /* iconfont.ttf */; };
+		406F23DD25AD98EB00BACE8A /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 406F23DA25AD98EB00BACE8A /* iconfont.ttf */; };
+		406F23DE25AD98EB00BACE8A /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 406F23DA25AD98EB00BACE8A /* iconfont.ttf */; };
 		728EED8C50632A7EF2B80E3C /* libPods-appnative.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DD8C788B8200B5DF1E4BEB7 /* libPods-appnative.a */; };
 		76223C3A8207B1E30E36B1E4 /* libPods-appnative-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12784C6BF1D2134ECD66FEA4 /* libPods-appnative-tvOSTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
@@ -56,6 +64,8 @@
 		1DDACAEC02076DFD68AD8641 /* libPods-appnative-appnativeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-appnative-appnativeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* appnative-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "appnative-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* appnative-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "appnative-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		406F23D525AD958800BACE8A /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = iconfont.ttf; path = font/iconfont.ttf; sourceTree = "<group>"; };
+		406F23DA25AD98EB00BACE8A /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = iconfont.ttf; path = font/iconfont.ttf; sourceTree = "<group>"; };
 		6C4134CE6700349E9CDD0B93 /* Pods-appnative-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appnative-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-appnative-tvOS/Pods-appnative-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		7713A5463286A1F1DB7FA84E /* Pods-appnative-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appnative-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-appnative-tvOSTests/Pods-appnative-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7DD8C788B8200B5DF1E4BEB7 /* libPods-appnative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-appnative.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,6 +135,8 @@
 		13B07FAE1A68108700A75B9A /* appnative */ = {
 			isa = PBXGroup;
 			children = (
+				406F23D525AD958800BACE8A /* iconfont.ttf */,
+				406F23DA25AD98EB00BACE8A /* iconfont.ttf */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -161,7 +173,6 @@
 				7713A5463286A1F1DB7FA84E /* Pods-appnative-tvOSTests.debug.xcconfig */,
 				17F3ED3198296233DA39D88C /* Pods-appnative-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -333,6 +344,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				406F23DC25AD98EB00BACE8A /* iconfont.ttf in Resources */,
+				406F23D725AD958800BACE8A /* iconfont.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,8 +353,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				406F23DB25AD98EB00BACE8A /* iconfont.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				406F23D625AD958800BACE8A /* iconfont.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,7 +364,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				406F23D825AD958800BACE8A /* iconfont.ttf in Resources */,
 				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+				406F23DD25AD98EB00BACE8A /* iconfont.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +374,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				406F23DE25AD98EB00BACE8A /* iconfont.ttf in Resources */,
+				406F23D925AD958800BACE8A /* iconfont.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

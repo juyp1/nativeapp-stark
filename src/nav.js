@@ -7,14 +7,14 @@ import Tabbar from './tabbar';
 
 const Stack = createStackNavigator()
  const state ={
-     initialRouteName:'Login'
+     initialRouteName:'Tabbar'
  }
 function Nav() {
     return (
         <NavigationContainer>
             <Stack.Navigator initialRouteName={state.initialRouteName}>
                 <Stack.Screen name="Login" component={Login} options={ {headerShown:false} } />
-                <Stack.Screen name="Tabbar" component={Tabbar} />
+                <Stack.Screen name="Tabbar" component={Tabbar} options={ {headerShown:false} }/>
             </Stack.Navigator>
         </NavigationContainer>
     );
