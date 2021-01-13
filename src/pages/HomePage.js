@@ -1,5 +1,6 @@
 import React,{Component} from 'react'
 import {View,Text,ImageBackground,StyleSheet,SafeAreaView,Image,TextInput} from 'react-native'
+import Icon from '../assets/iconfont/';
 class HomePage extends  Component {
     constructor() {
         super();
@@ -32,10 +33,15 @@ class HomePage extends  Component {
                                     backgroundColor:"#ffffff",
                                      }}/>
                         </View>
-                        <Ionicons name={'icon-paytype'} size={26} color="red"/>
+
                     </SafeAreaView>
                    </ImageBackground>
+
                </View>
+                <View>
+                    <Text>测试</Text>
+                    <Icon name="iconcainixihuan" />
+                </View>
             </View>
         )
     }
