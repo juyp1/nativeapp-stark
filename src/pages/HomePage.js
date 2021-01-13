@@ -32,7 +32,7 @@ class HomePage extends  Component {
                                     backgroundColor:"#ffffff",
                                      }}/>
                         </View>
-                        <Ionicons name={'icon-paytype'} size={26} color="red"/>
+
                     </SafeAreaView>
                    </ImageBackground>
                </View>
