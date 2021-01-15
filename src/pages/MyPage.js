@@ -1,30 +1,9 @@
-import React,{Component} from 'react'
-import {View, Text, sheetStyle, StyleSheet} from 'react-native';
-import Swiper from 'react-native-swiper';
-class MyPage extends  Component {
-    render(){
-        return(
-            <View>
-                <Swiper style={styles.wrapper} showsButtons>
-                    <View style={styles.slide1}>
-                        <Text style={styles.text}>Hello Swiper</Text>
-                    </View>
-                    <View style={styles.slide2}>
-                        <Text style={styles.text}>Beautiful</Text>
-                    </View>
-                    <View style={styles.slide3}>
-                        <Text style={styles.text}>And simple</Text>
-                    </View>
-                </Swiper>
-            </View>
-        )
-    }
-}
+import React from 'react'
+import {Image, Text, View} from 'react-native';
+import Swiper from 'react-native-swiper'
 
-export  default  MyPage
-const styles = StyleSheet.create({
-    wrapper: {
-    },
+var styles = {
+    wrapper: {},
     slide1: {
         flex: 1,
         justifyContent: 'center',
@@ -48,4 +27,16 @@ const styles = StyleSheet.create({
         fontSize: 30,
         fontWeight: 'bold'
     }
-})
+}
+
+export default () => (
+    <Swiper style={styles.wrapper} showsButtons loop={false}>
+        <View testID="Hello" style={styles.slide1}>
+            <Image source={require('../assets/home/banner1.png')} style={{width:'100%',height:330}} />
+        </View>
+        <View testID="Beautiful" style={styles.slide2}>
+            <Image source={require('../assets/home/banner2.png')} style={{width:'100%',height:330}} />
+        </View>
+
+    </Swiper>
+)
