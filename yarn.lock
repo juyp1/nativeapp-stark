@@ -6067,6 +6067,13 @@ react-native-svg@^12.1.0:
     css-select "^2.1.0"
     css-tree "^1.0.0-alpha.39"
 
+react-native-swiper@^1.6.0:
+  version "1.6.0"
+  resolved "https://registry.npm.taobao.org/react-native-swiper/download/react-native-swiper-1.6.0.tgz#59fdbdf95addee49630312f27077622c27776819"
+  integrity sha1-Wf29+Vrd7kljAxLycHdiLCd3aBk=
+  dependencies:
+    prop-types "^15.5.10"
+
 react-native-tab-navigator@0.3.4:
   version "0.3.4"
   resolved "https://registry.npm.taobao.org/react-native-tab-navigator/download/react-native-tab-navigator-0.3.4.tgz#54a18f1ad06a09d4a0de81ff00416bc1b760c960"
