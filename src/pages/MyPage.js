@@ -35,7 +35,7 @@ export default () => (
             <Image source={require('../assets/home/banner1.png')} style={{width:'100%',height:330}} />
         </View>
         <View testID="Beautiful" style={styles.slide2}>
-            <Image source={require('../assets/home/banner2.png')} style={{width:'100%',height:330}} />
+            <Image source={require('../assets/home/banner1.png')} style={{width:'100%',height:330}} />
         </View>
 
     </Swiper>

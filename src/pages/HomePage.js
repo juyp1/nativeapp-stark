@@ -8,18 +8,23 @@ import {
     SafeAreaView,
     Image,
     TextInput,
+    ScrollView
 } from 'react-native';
 
 import Icon from '../assets/iconfont/';
 import HomeSwiper from '../component/swiper';
+import ProjectItem from '../component/productItem/index'
 class HomePage extends Component {
     constructor() {
         super();
     }
-
+    
     render() {
         return (
+          
             <View>
+                <SafeAreaView>
+                    <ScrollView overScrollMode={'never'}>
                 <View>
                     <ImageBackground
                         source={require('../assets/home/headerbg.png')}
@@ -60,12 +65,67 @@ class HomePage extends Component {
                         </SafeAreaView>
                     </ImageBackground>
                 </View>
-                <View style={{height:160}}>
-                    <HomeSwiper/>
-                </View>
+          
+             
+                   <View style={{height:160}}>
+                       <HomeSwiper/>
+                   </View>
+                   {/*产品*/}
+                   <View style={styles.productContainer}>
+        
+                       <View>
+                           <ProjectItem/>
+        
+                       </View>
+                       <View>
+                           <ProjectItem/>
+        
+                       </View>
+                       <View>
+                           <ProjectItem/>
+        
+                       </View>
+                       <View>
+                           <ProjectItem/>
+        
+                       </View>
+                       <View>
+                           <ProjectItem/>
+        
+                       </View>
+                   </View>
+                        <View style={{height:160}}>
+                            <HomeSwiper/>
+                        </View>
+                        <View style={styles.productContainer}>
+        
+                            <View>
+                                <ProjectItem/>
+        
+                            </View>
+                            <View>
+                                <ProjectItem/>
+        
+                            </View>
+                            <View>
+                                <ProjectItem/>
+        
+                            </View>
+                            <View>
+                                <ProjectItem/>
+        
+                            </View>
+                            <View>
+                                <ProjectItem/>
+        
+                            </View>
+                        </View>
+               </ScrollView>
+                </SafeAreaView>
             </View>
+
         );
-        ;
+        
     }
 }
 
@@ -73,7 +133,7 @@ export default HomePage;
 const styles = StyleSheet.create({
     headerbg: {
         width: '100%',
-        height: 146,
+        height: 106,
     },
     headerContainer: {
         display: 'flex',
@@ -90,4 +150,13 @@ const styles = StyleSheet.create({
         width: 22,
         height: 22,
     },
+    productContainer:{
+        display: "flex",
+        flexDirection: "row",
+        justifyContent: 'space-between',
+        flexWrap:"wrap",
+        marginTop:15,
+        marginLeft: 15,
+        marginRight: 15
+    }
 });
